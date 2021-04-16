@@ -1,0 +1,9 @@
+#developement
+
+_venv_asterAPI
+.vscode
+asterAPI/__pycache__/*
+asterAPI/API/__pycache__/*
+
+#Testing
+sipLog.txt
