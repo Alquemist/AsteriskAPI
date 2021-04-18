@@ -9,8 +9,7 @@ manager = Manager(loop=asyncio.get_event_loop(),
                   username='admin',
                   secret='aster123')
 
-
-# This will print NewChannel Events
+# This will print NewChannel Events.
 # AppData='hangupcall, CallerIDName='test2' CallerIDNum='112' Channel='PJSIP/112-0000004a' ChannelState='6',
 # ChannelState='6' ChannelStateDesc='Up' ConnectedLineName='Test1' ConnectedLineNum='111' Context='ext-local' Event='Newexten'
 #
