@@ -13,8 +13,8 @@ manager = Manager(loop=asyncio.get_event_loop(),
 # This will print NewChannel Events
 # AppData='hangupcall, CallerIDName='test2' CallerIDNum='112' Channel='PJSIP/112-0000004a' ChannelState='6',
 # ChannelState='6' ChannelStateDesc='Up' ConnectedLineName='Test1' ConnectedLineNum='111' Context='ext-local' Event='Newexten'
-
-
+#
+#
 @manager.register_event('Newexten')
 def callback(manager, message):
     # resp = yield from manager.send_action({'Action': 'Status'})
