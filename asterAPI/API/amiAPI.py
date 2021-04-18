@@ -6,8 +6,8 @@ from pprint import pprint
 sipLog = 'sipLog.txt'
 manager = Manager(loop=asyncio.get_event_loop(),
                   host='192.168.2.62',
-                  username='admin',
-                  secret='aster123')
+                  username='',
+                  secret='')
 
 # This will print NewChannel Events.
 # AppData='hangupcall, CallerIDName='test2' CallerIDNum='112' Channel='PJSIP/112-0000004a' ChannelState='6',
